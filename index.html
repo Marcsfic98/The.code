@@ -26,10 +26,20 @@
                     The.Siber
                 </div><!--logo-->
                 <nav class="desktop">
+                    
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Contatos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contatos">Contatos</a></li>
+                    </ul>
+                   
+                </nav>
+                <nav class="mobile">
+                    <i class="fa fa-bars"></i>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contatos">Contatos</a></li>
                     </ul>
                    
                 </nav>
@@ -44,7 +54,7 @@
          </div><!--center-->
     </section><!--main-->
 
-    <section class="planos">
+    <section id="sobre" class="planos">
         
             <div class="chamada-planos">
                 <h2>Confira nossos planos</h2>
@@ -109,10 +119,69 @@
             <div  class="center">
                 <h2>Conheça nossa <span style="color: #2692FF;">empresa</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam autem eum ut libero veniam incidunt qui beatae reiciendis aspernatur. Iure totam modi consequatur earum unde. Cum nesciunt similique earum fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio harum aut facilis, tenetur earum ducimus odit? Unde architecto, odio ullam, illo itaque voluptates totam minus cupiditate adipisci porro ad in?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam autem eum ut libero veniam incidunt qui beatae reiciendis aspernatur. Iure totam modi consequatur earum unde. Cum nesciunt similique earum fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio harum aut facilis, tenetur earum ducimus odit? Unde architecto, odio ullam, illo itaque voluptates totam minus cupiditate adipisci porro ad in?</p>
+                <p>Lorem ipsum dolor sit amet</p>
                 
              </div><!--center-->
         </div><!--overlay-parallax-->
     </section><!--paralax-->
+
+    <section id="contatos" class="final-section">
+        <div class="center">
+            <div class="w50 contato">
+                <h2><div class="border-efeito"></div> Entre em contato</h2>
+                <form>
+                    <input type="text" placeholder="Insira seu nome...">
+                    <input type="email" placeholder="Insira seu e-mail...">
+                    <textarea placeholder="Sua mensagem..."></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div><!--w50  contato-->
+
+            <div class="w50 time">
+                <h2> <div class="border-efeito"></div> Conheça nosso time!</h2>
+                <div class="w50 equipe-single">
+                    <div class="topo-box-usuario">
+                        <div class="box-avatar">
+
+                        </div><!--box-avatar-->
+                        <div class="info-usuario">
+                            <p style="font-weight: bold;">Marcos Ribeiro</p>
+                            <p style="font-weight:italic;">CEO/Desenvolvedor</p>
+                        </div><!--info-usuario-->
+                    </div><!--topo-box-usuario-->
+
+                    <div class="descricao-usuario-box">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam cumque animi voluptas libero corrupti, debitis aliquam aspernatur. Explicabo nisi quos laborum, excepturi quia architecto quam, alias cupiditate asperiores repellat in.</p>
+                    </div><!--descricao-usuario-box-->
+                </div><!--w50 equipe-single-->
+
+                <div class="w50 equipe-single">
+                    <div class="topo-box-usuario">
+                        <div class="box-avatar">
+
+                        </div><!--box-avatar-->
+                        <div class="info-usuario">
+                            <p style="font-weight: bold;">Marcos Ribeiro</p>
+                            <p style="font-weight:italic;">CEO/Desenvolvedor</p>
+                        </div><!--info-usuario-->
+                    </div><!--topo-box-usuario-->
+
+                    <div class="descricao-usuario-box">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam cumque animi voluptas libero corrupti, debitis aliquam aspernatur. Explicabo nisi quos laborum, excepturi quia architecto quam, alias cupiditate asperiores repellat in.</p>
+                    </div><!--descricao-usuario-box-->
+                </div><!--w50 equipe-single-->
+                <div class="clear"></div>
+ 
+            </div><!--w50  time-->
+            <div class="clear"></div>
+        </div><!--center-->
+    </section><!--final-section-->
+
+    <footer>
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+    <script src="./js/jquery.js"></script>
+    <script src="./js/func.js"></script>
 </body>
 </html>
